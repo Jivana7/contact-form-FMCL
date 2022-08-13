@@ -52,7 +52,12 @@
   </div>
 -->
   <!--Contact form-->
-  <form action="https://formsubmit.co/f8f65e6cec8f08a7d1eacb9d48815206" method="post">      
+  <form action="https://formsubmit.co/f8f65e6cec8f08a7d1eacb9d48815206" method="post"> 
+         <!--Honeypot-->
+<input type="text" name="_honey" style="display:none;">
+<!--disable captcha-->
+<input type="hidden" name="_captcha" value="false">
+
     <input name="name" type="text" class="feedback-input" placeholder="Name" />   
     <input name="email" type="text" class="feedback-input" placeholder="Email" />
     <textarea name="text" class="feedback-input" placeholder="Comment/Message"></textarea>
